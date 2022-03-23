@@ -80,3 +80,8 @@ label {
   text-align: center;
   cursor: pointer;
 }
+
+.btn:hover {
+    background-color: pink;
+    /* added hover effects */
+}
