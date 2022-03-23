@@ -19,3 +19,14 @@ body {
     align-items: center;
     flex-direction: column;
 }
+
+.form {
+    display: grid;
+    grid-template-columns: auto auto;
+    /* Gave two autos to create two separate columns */
+    row-gap: 1rem;
+    column-gap: 3rem;
+    /* Gaps for spacing/neatness */
+    justify-content: center;
+    align-items: center;
+}
